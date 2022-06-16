@@ -355,7 +355,7 @@ public class Food_App {
 		while (continuation) {
 			Thread.sleep(50);
 			System.out.println(
-					"\n1.Add an Restraunts\n2.Order the Food\n3.Add to cart\n4.Add food/combo list to restaurants\n5.Display the restaurent details\n6.Buy cart Products\n7.Exist");
+					"\n1.Add an Restraunts\n2.Order the Food\n3.Add to cart\n4.Add food/combo list to restaurants\n5.Display the restaurent details\n6.Buy cart Products\n7.Exit");
 			int n = scannerObj.nextInt();
 			Food_App homePage = new Food_App();
 			Print printObj = new Print();

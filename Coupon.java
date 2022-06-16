@@ -12,9 +12,6 @@ public class Coupon {
 		this.ExpiryTime = expiryTime;
 	}
 
-	Coupon(int couponId) {
-		this.couponId = couponId;
-	}
 
 	protected int getCouponId() {
 		return couponId;
